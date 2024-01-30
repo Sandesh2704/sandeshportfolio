@@ -3,8 +3,7 @@ import { useTheme } from 'next-themes'
 import React from 'react'
 import '../styleComponent/Backround.css'
 import Image from 'next/image';
-import img from '../../public/BackgroundSkills/Next.png'
-import Link from 'next/link';
+
 
 const skillsData = [
     { "name": "html-5", "left": 25, "w": 14, "h": 14, "alt": "HTML5" },
@@ -30,7 +29,7 @@ export default function Backround() {
     return (
         <>
         <div className='fixed w-screen h-screen ' style={{ backgroundColor: resolvedTheme === 'dark' ? '#FAF9F6' : '#0C012A', color: resolvedTheme === 'dark' ? 'black' : '#D1E1FF ' }}>
-            {/* <div className="circles absolute top-0 left-0 w-screen h-screen    overflow-hidden    ">
+            <div className="circles absolute top-0 left-0 w-screen h-screen    overflow-hidden    ">
                 <li className='left-[25%] w-14 h-14 z-10' style={style}><Image src='/BackgroundSkills/html-5.png' width={40} height={40} alt='HTML5' /></li>
                 <li className='left-[7%] w-16 h-16 z-10' style={style}><Image src='/BackgroundSkills/css.png' width={40} height={40} alt='CSS3' /></li>
                 <li className='left-[75%] w-11 h-11 z-10' style={style}><Image src='/BackgroundSkills/python.png' width={40} height={40} alt='PYTHON' /></li>
@@ -42,7 +41,7 @@ export default function Backround() {
                 <li className='left-[55%] w-20 h-20 z-10' style={style}><Image src='/BackgroundSkills/node.png' width={40} height={40} alt='node' /> </li>
                 <li className='left-[80%] w-16 h-16 z-10' style={style}><Image src='/BackgroundSkills/github.png' width={40} height={40} alt='github' /> </li>
                 <li className='left-[25%] w-16 h-16 z-10' style={style}><Image src='/BackgroundSkills/Next.png' width={40} height={40} alt='github' /> </li>
-            </div> */}
+            </div>
         </div>
 
     
