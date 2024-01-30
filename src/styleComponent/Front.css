@@ -1,0 +1,72 @@
+header {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+
+    margin-top: 5px; /* adjust this value to match the height of your header */
+  }
+.pyramid-body{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transform: rotateX(-20deg) rotateY(30deg);
+    animation: rotate 8s linear infinite;
+}
+.pyramid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+.pyramid-side{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgb(204, 29, 160);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+transform-origin: bottom;
+transform: rotateY(calc(90deg*var(--i))) translateZ(149.7px) rotateX(30deg);
+}
+.pyramid-side:nth-child(even){
+    background:linear-gradient(#9400d3, rgb(18, 7, 121));
+    animation: sideeven 5s linear infinite ;
+}
+.pyramid-side:nth-child(odd){
+    background:linear-gradient( #9400d3, rgb(18, 7, 121));
+    animation: sideodd  5s  linear infinite ;
+}
+@keyframes rotate{
+    0%{
+        transform: rotateX(-20deg) rotateY(30deg);
+    }
+    100%{
+        transform: rotateX(-20deg) rotateY(390deg);
+    }
+}
+@keyframes sideeven{
+    0%{
+        background:linear-gradient( #9400d3, rgb(18, 7, 121));
+    }
+  50%{
+    background:linear-gradient(rgb(9, 154, 221),rgb(0, 0, 255));
+  }
+  100%{
+        background:linear-gradient(rgb(230, 75, 152), rgb(175, 12, 12));
+    }
+}
+@keyframes sideodd{
+    0%{
+        background:linear-gradient( #9400d3, rgb(18, 7, 121));
+    }
+    50%{
+        background:linear-gradient(rgb(9, 154, 221),rgb(0, 0, 255) );
+      }
+  100%{
+        background:linear-gradient( rgb(230, 75, 152), rgb(175, 12, 12));
+    }
+}
