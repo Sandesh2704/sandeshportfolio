@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { FaDownload } from "react-icons/fa6";
+'../../../public/resume/sandesh-deshmukh-resume.jpg'
 
 export default function page() {
   const { resolvedTheme } = useTheme()
@@ -32,7 +33,7 @@ export default function page() {
         <h1 className='font-bold text-center text-4xl sm:text-5xl lg:text-6xl  mb-3 lg:mb-8 tracking-wide'>Resume</h1>
         <div className="flex justify-center">
 
-          <Image src='/resume/Sandesh_Deshmukh_resume.jpg' className=' w-full lg:w-[80%] h-full    border-2   ' width={900} height={900} alt='sandesh deshmukh resume ' style={style} />
+          <Image src='/resume/sandesh-deshmukh-resume.jpg' className=' w-full lg:w-[80%] h-full    border-2   ' width={900} height={900} alt='sandesh deshmukh resume ' style={style} />
         </div>
 
         <div className='flex justify-center my-12 lg:my-16 items-center'>
