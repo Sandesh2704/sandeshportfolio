@@ -5,7 +5,10 @@ import ContentTheme from "@/contextheme/ContentTheme";
 import Footer from "@/components/Footer";
 import Backround from "@/components/Backround";
 import './globals.css'
-import SocialMedia from "@/components/SocialMedia";
+import MoblieSocailIcons from "@/components/MoblieSocailIcons";
+'../../public/hero-img/hero3.png'
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -17,11 +20,11 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} >
         <ContentTheme>
-          <SocialMedia/>
           <Backround />
-          <div className="body absolute w-full px-3 sm:px-14 lg:px-32 " >
+          <MoblieSocailIcons/>
+          <div className="body absolute w-full px-4 sm:px-14 lg:px-32 " >
             <Navbar />
             {children}
             <Footer />

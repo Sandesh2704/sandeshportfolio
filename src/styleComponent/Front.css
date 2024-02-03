@@ -1,9 +1,9 @@
-header {
+/* header {
     position: absolute;
     top: 5%;
     left: 50%;
 
-    margin-top: 5px; /* adjust this value to match the height of your header */
+    margin-top: 5px;
   }
 .pyramid-body{
     position: relative;
@@ -69,4 +69,4 @@ transform: rotateY(calc(90deg*var(--i))) translateZ(149.7px) rotateX(30deg);
   100%{
         background:linear-gradient( rgb(230, 75, 152), rgb(175, 12, 12));
     }
-}
+} */

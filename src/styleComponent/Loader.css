@@ -1,0 +1,46 @@
+
+.loader {
+  
+ padding: 60px;
+}
+
+.loader-logo {
+ width: 160px; 
+    height: 160px;  
+    animation: spinAndScale 2s ease-in-out infinite;
+  }
+  
+  @keyframes spinAndScale {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(1.2);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+
+
+  @media only screen and (max-width:1024px) {
+   
+  }
+  
+  @media only screen and (max-width:768px) {
+     
+     
+  }
+  
+  @media only screen and (max-width:578px) {
+     
+    .loader-logo {
+      width: 100px; 
+         height: 100px;  
+         
+       }
+  }
+  
+  @media only screen and (max-width:380px) {
+      
+  }

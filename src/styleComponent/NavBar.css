@@ -40,9 +40,7 @@
     border-radius: 5px;
     text-decoration: none;
 }
-.logo{
 
-}
 
 @media only screen and (max-width:1024px) {
    
@@ -71,6 +69,7 @@
         flex-direction: column;
         row-gap: 2rem;
         justify-content: center;
+        position: fixed;
     }
     .menu a{
         color: #16167D;

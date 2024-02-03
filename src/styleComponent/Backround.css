@@ -1,9 +1,12 @@
+.gmail {
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+}
+
 .circles li{
     position: absolute;
     display: block;
     list-style: none;
-    /* background-color: brown; */
-    /* background:  rgba(3, 125, 181, 0.664);    */
     animation: animate 25s linear infinite;
     bottom: -150px;
 }
@@ -106,3 +109,5 @@
     }
 
 }
+
+
