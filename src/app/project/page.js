@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes'
 
 
 
-export default function page() {
+export default function Page() {
   const { resolvedTheme } = useTheme()
 
   return (

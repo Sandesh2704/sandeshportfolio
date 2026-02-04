@@ -6,7 +6,7 @@ import React from 'react'
 import { FaDownload } from "react-icons/fa6";
 '../../../public/resume/sandesh-deshmukh-resume.jpg'
 
-export default function page() {
+export default function Page() {
   const { resolvedTheme } = useTheme()
 
   const style = {

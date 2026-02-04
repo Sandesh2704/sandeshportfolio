@@ -25,10 +25,10 @@ export default function Contact() {
 
     return (
         <div className='px-0 sm:px-12 lg:px-20 text-center ' style={{ color: resolvedTheme === 'dark' ? 'black' : '#D1E1FF ' }}>
-            <h1 className='mb-3' style={{ color: resolvedTheme === 'dark' ? '#FF5900' : 'rgb(7, 234, 255)' }}> Hey, What's Next?</h1>
+            <h1 className='mb-3' style={{ color: resolvedTheme === 'dark' ? '#FF5900' : 'rgb(7, 234, 255)' }}> {`Hey, What's Next?`}</h1>
             <h1 className='font-bold text-5xl sm:text-7xl lg:text-8xl  mb-5 lg:mb-8 tracking-wide'>Get In Touch</h1>
             <p className=' tracking-wide text-sm sm:text-base lg:text-base mb-8'>
-                While I'm currently not actively seeking new opportunities, I welcome the chance to connect with you. Whether you have inquiries, wish to share ideas, or simply want to exchange greetings, I am committed to responding promptly. Your messages are invaluable, and I make it a priority to engage with every interaction. The prospect of connecting with diverse individuals like yourself excites me, and I look forward to the potential conversations that may unfold. Feel free to reach out, and I'll do my utmost to ensure a thoughtful and timely response.
+         {`       While I'm currently not actively seeking new opportunities, I welcome the chance to connect with you. Whether you have inquiries, wish to share ideas, or simply want to exchange greetings, I am committed to responding promptly. Your messages are invaluable, and I make it a priority to engage with every interaction. The prospect of connecting with diverse individuals like yourself excites me, and I look forward to the potential conversations that may unfold. Feel free to reach out, and I'll do my utmost to ensure a thoughtful and timely response.`}
             </p>
 
 

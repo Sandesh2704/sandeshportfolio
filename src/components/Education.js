@@ -58,7 +58,7 @@ export default function Education() {
                                                 visible: { opacity: 1, y: 0 },
                                             }}>
                                             <h3 className='font-normal font-semibold mb-3 ' style={EDstyle}>| Dec 2022 - present | Jetking Networking Institute</h3>
-                                            <p className='text-sm'>Actively pursuing a Master's in Blockchain Development at Jetking Networking Institute since December 2022. Simultaneously, I am honing my skills as a MERN (MongoDB, Express.js, React.js, Node.js) Stack Developer. This portfolio is a showcase of my journey, highlighting hands-on experience, projects, and a commitment to mastering both blockchain and MERN stack technologies. Ready to contribute dynamic solutions at the intersection of blockchain innovation and robust web development.</p>
+                                            <p className='text-sm'>{`Actively pursuing a Master's in Blockchain Development at Jetking Networking Institute since December 2022. Simultaneously, I am honing my skills as a MERN (MongoDB, Express.js, React.js, Node.js) Stack Developer. This portfolio is a showcase of my journey, highlighting hands-on experience, projects, and a commitment to mastering both blockchain and MERN stack technologies. Ready to contribute dynamic solutions at the intersection of blockchain innovation and robust web development.`}</p>
                                         </motion.div>
                                     </div>
                                 </div>

@@ -5,7 +5,7 @@ import React from 'react'
 import Skills from '@/components/Skills'
 import Education from '@/components/Education'
 
-export default function page() {
+export default function Page() {
   const { resolvedTheme } = useTheme()
 
   return (
