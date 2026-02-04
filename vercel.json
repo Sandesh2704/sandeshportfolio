@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://portfolio-sandesh-deshmukh.vercel.app/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://portfolio-sandesh-deshmukh.vercel.app/:path*",
+      "permanent": true
+    }
+  ]
+}
